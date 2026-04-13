@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\cpp_training\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\cpp_training\Target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\cpp_training\Interceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\cpp_training\SimulationEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\cpp_training\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E0582B10-0C41-3755-BC46-20594C0C02EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

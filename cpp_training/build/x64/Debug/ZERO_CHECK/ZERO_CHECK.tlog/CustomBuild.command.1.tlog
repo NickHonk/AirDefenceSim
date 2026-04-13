@@ -1,0 +1,10 @@
+^C:\USERS\NICK\ONEDRIVE\DOKUMENTE\BEWERBUNG\DIEHL\CPP_TRAINING\BUILD\CMAKEFILES\114BB8313F983CABE7C3EAE59BB96661\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/cpp_training -BC:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/cpp_training/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/cpp_training/build/AirDefenseSim.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
