@@ -18,6 +18,12 @@ private:
 public:
     SimulationEnvironment(const std::string& filename);
 
+    ~SimulationEnvironment() {
+        if (logFile.is_open()) {
+        logFile.close();
+    }
+    };
+
     // Ownership-Transfer
     void addEntity(std::unique_ptr<SimulationEntity> entity);
 
@@ -31,5 +37,8 @@ public:
 
     void initLogging(const std::string& filename);
     void logCurrentState();
+
+// Für Unit-Tests: Lesezugriff auf Entitäten
+const std::vector<std::unique_ptr<SimulationEntity>>& getEntities() const { return entities; }
 
 };

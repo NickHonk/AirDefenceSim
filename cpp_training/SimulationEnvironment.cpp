@@ -5,11 +5,11 @@ SimulationEnvironment::SimulationEnvironment(const std::string& filename) : curr
     this->initLogging(filename);
 }
 
-SimulationEnvironment::~SimulationEnvironment() {
+/* SimulationEnvironment::~SimulationEnvironment() {
     if (logFile.is_open()) {
         logFile.close();
     }
-}
+} */
 
 void SimulationEnvironment::addEntity(std::unique_ptr<SimulationEntity> entity) {
     entities.push_back(std::move(entity));

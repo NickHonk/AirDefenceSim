@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\build\_deps\googletest-subbuild\CMakeFiles\2c97aea07b689ec618f5becd145d1254\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD7EF9C4-FC0E-3C98-A847-E43A0B41772A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

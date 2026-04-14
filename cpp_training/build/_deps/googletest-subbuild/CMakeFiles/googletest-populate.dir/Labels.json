@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/2c97aea07b689ec618f5becd145d1254/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/7141d03f9ea47e747c152df613e8fc12/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/CMakeFiles/82d13a4a93ee17983734e7690a80c37c/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

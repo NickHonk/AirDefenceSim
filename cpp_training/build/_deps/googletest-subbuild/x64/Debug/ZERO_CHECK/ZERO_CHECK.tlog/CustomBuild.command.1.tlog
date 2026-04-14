@@ -1,0 +1,10 @@
+^C:\USERS\NICK\ONEDRIVE\DOKUMENTE\BEWERBUNG\DIEHL\AIRDEFENCESIM\CPP_TRAINING\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\2C97AEA07B689EC618F5BECD145D1254\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild -BC:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

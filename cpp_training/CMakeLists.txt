@@ -1,20 +1,34 @@
-# 1. Definiere die minimal benötigte CMake-Version
-cmake_minimum_required(VERSION 3.10)
-
-# 2. Gib deinem Projekt einen Namen (das zeigt Professionalität)
+cmake_minimum_required(VERSION 3.14) # 3.14 für FetchContent
 project(AirDefenseSim VERSION 1.0)
 
-# 3. Fordere den modernen C++ Standard an (C++17 ist aktuell ein guter Industrie-Standard)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# 4. Fasse alle .cpp Dateien zusammen, die kompiliert werden müssen
-set(SOURCES
-    main.cpp
+# Trennen der Kern-Dateien von der main.cpp für GTests
+set(CORE_SOURCES
     Target.cpp
     Interceptor.cpp
     SimulationEnvironment.cpp
 )
 
-# 5. Erstelle die ausführbare Datei (Executable) aus den Quellen
-add_executable(SimulationApp ${SOURCES})
+# Normales Simulations-Programm
+add_executable(SimulationApp main.cpp ${CORE_SOURCES})
+
+# ==========================================
+# GoogleTest Integration
+# ==========================================
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG        main
+)
+# Windows-spezifischer Fix für C++ Laufzeitbibliotheken
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) 
+FetchContent_MakeAvailable(googletest)
+
+# Test-Programm: kompilieren einer neuen .exe, die nur aus Test und Kern-Dateien besteht
+add_executable(SimulationTests test_interceptor.cpp ${CORE_SOURCES})
+
+# Einbinden der heruntergeladene GTest-Bibliothek an Test-Programm
+target_link_libraries(SimulationTests gtest_main)

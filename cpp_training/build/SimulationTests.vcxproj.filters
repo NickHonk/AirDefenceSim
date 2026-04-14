@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\test_interceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\Target.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\Interceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\SimulationEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B575CB0-40D0-32A5-9BDF-1C06A880E8D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
