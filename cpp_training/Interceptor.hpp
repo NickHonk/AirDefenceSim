@@ -1,14 +1,15 @@
 #pragma once
+
 #include "SimulationEntity.hpp"
 
 class Interceptor : public SimulationEntity {
 private:
-    double maxSpeed;               // Wie schnell der Interceptor maximal fliegen kann
+    float maxSpeed;               // Wie schnell der Interceptor maximal fliegen kann
 
 public:
-    Interceptor(std::string n, Vector3 pos, double speed);
+    Interceptor(std::string n, glm::vec3 pos, float speed);
 
-    void update(double dt, const SimulationEnvironment& env) override;
-    
-    Vector3 getVelocity() const { return velocity; }
+    void update(float dt, const SimulationEnvironment& env) override;
+
+    glm::vec3 getVelocity() const { return velocity; }
 };

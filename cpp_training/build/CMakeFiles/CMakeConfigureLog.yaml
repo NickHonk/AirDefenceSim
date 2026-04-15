@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-      Der Buildvorgang wurde am 14.04.2026 09:32:31 gestartet.
+      Der Buildvorgang wurde am 15.04.2026 18:18:56 gestartet.
       
       Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:00.48
+      Verstrichene Zeit 00:00:00.92
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-      Der Buildvorgang wurde am 14.04.2026 09:32:31 gestartet.
+      Der Buildvorgang wurde am 15.04.2026 18:18:57 gestartet.
       
       Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:00.53
+      Verstrichene Zeit 00:00:00.66
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-hlbqwc"
-      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-hlbqwc"
+      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ccel4k"
+      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ccel4k"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-hlbqwc'
+        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ccel4k'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7e595.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3d3c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-        Der Buildvorgang wurde am 14.04.2026 09:32:32 gestartet.
+        Der Buildvorgang wurde am 15.04.2026 18:18:59 gestartet.
         
-        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlbqwc\\cmTC_7e595.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ccel4k\\cmTC_3d3c3.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_7e595.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_3d3c3.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlbqwc\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_7e595.dir\\Debug\\cmTC_7e595.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ccel4k\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_3d3c3.dir\\Debug\\cmTC_3d3c3.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_7e595.dir\\Debug\\cmTC_7e595.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_7e595.dir\\Debug\\cmTC_7e595.tlog\\unsuccessfulbuild".
+          "cmTC_3d3c3.dir\\Debug\\cmTC_3d3c3.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_3d3c3.dir\\Debug\\cmTC_3d3c3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e595.dir\\Debug\\\\" /Fd"cmTC_7e595.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d3c3.dir\\Debug\\\\" /Fd"cmTC_3d3c3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.44.35225 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e595.dir\\Debug\\\\" /Fd"cmTC_7e595.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d3c3.dir\\Debug\\\\" /Fd"cmTC_3d3c3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlbqwc\\Debug\\cmTC_7e595.exe" /INCREMENTAL /ILK:"cmTC_7e595.dir\\Debug\\cmTC_7e595.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-hlbqwc/Debug/cmTC_7e595.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-hlbqwc/Debug/cmTC_7e595.lib" /MACHINE:X64  /machine:x64 cmTC_7e595.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_7e595.vcxproj -> C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlbqwc\\Debug\\cmTC_7e595.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ccel4k\\Debug\\cmTC_3d3c3.exe" /INCREMENTAL /ILK:"cmTC_3d3c3.dir\\Debug\\cmTC_3d3c3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ccel4k/Debug/cmTC_3d3c3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ccel4k/Debug/cmTC_3d3c3.lib" /MACHINE:X64  /machine:x64 cmTC_3d3c3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3d3c3.vcxproj -> C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ccel4k\\Debug\\cmTC_3d3c3.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_7e595.dir\\Debug\\cmTC_7e595.tlog\\unsuccessfulbuild" wird gel├Âscht.
-          Aktualisieren des Timestamps von "cmTC_7e595.dir\\Debug\\cmTC_7e595.tlog\\cmTC_7e595.lastbuildstate".
-        Die Erstellung von Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hlbqwc\\cmTC_7e595.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_3d3c3.dir\\Debug\\cmTC_3d3c3.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_3d3c3.dir\\Debug\\cmTC_3d3c3.tlog\\cmTC_3d3c3.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ccel4k\\cmTC_3d3c3.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:00.50
+        Verstrichene Zeit 00:00:00.67
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-v6j9jl"
-      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-v6j9jl"
+      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2ik3xr"
+      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2ik3xr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-v6j9jl'
+        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2ik3xr'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5cbaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_30cda.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-        Der Buildvorgang wurde am 14.04.2026 09:32:33 gestartet.
+        Der Buildvorgang wurde am 15.04.2026 18:19:00 gestartet.
         
-        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6j9jl\\cmTC_5cbaa.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ik3xr\\cmTC_30cda.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_5cbaa.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_30cda.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6j9jl\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_5cbaa.dir\\Debug\\cmTC_5cbaa.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ik3xr\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_30cda.dir\\Debug\\cmTC_30cda.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_5cbaa.dir\\Debug\\cmTC_5cbaa.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_5cbaa.dir\\Debug\\cmTC_5cbaa.tlog\\unsuccessfulbuild".
+          "cmTC_30cda.dir\\Debug\\cmTC_30cda.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_30cda.dir\\Debug\\cmTC_30cda.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5cbaa.dir\\Debug\\\\" /Fd"cmTC_5cbaa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_30cda.dir\\Debug\\\\" /Fd"cmTC_30cda.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.44.35225 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5cbaa.dir\\Debug\\\\" /Fd"cmTC_5cbaa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_30cda.dir\\Debug\\\\" /Fd"cmTC_30cda.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6j9jl\\Debug\\cmTC_5cbaa.exe" /INCREMENTAL /ILK:"cmTC_5cbaa.dir\\Debug\\cmTC_5cbaa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-v6j9jl/Debug/cmTC_5cbaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-v6j9jl/Debug/cmTC_5cbaa.lib" /MACHINE:X64  /machine:x64 cmTC_5cbaa.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5cbaa.vcxproj -> C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6j9jl\\Debug\\cmTC_5cbaa.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ik3xr\\Debug\\cmTC_30cda.exe" /INCREMENTAL /ILK:"cmTC_30cda.dir\\Debug\\cmTC_30cda.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2ik3xr/Debug/cmTC_30cda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2ik3xr/Debug/cmTC_30cda.lib" /MACHINE:X64  /machine:x64 cmTC_30cda.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_30cda.vcxproj -> C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ik3xr\\Debug\\cmTC_30cda.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_5cbaa.dir\\Debug\\cmTC_5cbaa.tlog\\unsuccessfulbuild" wird gel├Âscht.
-          Aktualisieren des Timestamps von "cmTC_5cbaa.dir\\Debug\\cmTC_5cbaa.tlog\\cmTC_5cbaa.lastbuildstate".
-        Die Erstellung von Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6j9jl\\cmTC_5cbaa.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_30cda.dir\\Debug\\cmTC_30cda.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_30cda.dir\\Debug\\cmTC_30cda.tlog\\cmTC_30cda.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ik3xr\\cmTC_30cda.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:00.52
+        Verstrichene Zeit 00:00:00.70
         
       exitCode: 0
   -
@@ -297,8 +297,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-yk2h4a"
-      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-yk2h4a"
+      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2hxsr5"
+      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2hxsr5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -307,40 +307,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-yk2h4a'
+        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-2hxsr5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08159.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d7c1a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-        Der Buildvorgang wurde am 14.04.2026 09:32:43 gestartet.
+        Der Buildvorgang wurde am 15.04.2026 18:19:08 gestartet.
         
-        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\cmTC_08159.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\cmTC_d7c1a.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_08159.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_d7c1a.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_08159.dir\\Debug\\cmTC_08159.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_d7c1a.dir\\Debug\\cmTC_d7c1a.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_08159.dir\\Debug\\cmTC_08159.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_08159.dir\\Debug\\cmTC_08159.tlog\\unsuccessfulbuild".
+          "cmTC_d7c1a.dir\\Debug\\cmTC_d7c1a.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_d7c1a.dir\\Debug\\cmTC_d7c1a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08159.dir\\Debug\\\\" /Fd"cmTC_08159.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7c1a.dir\\Debug\\\\" /Fd"cmTC_d7c1a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\src.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.44.35225 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08159.dir\\Debug\\\\" /Fd"cmTC_08159.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7c1a.dir\\Debug\\\\" /Fd"cmTC_d7c1a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\src.c"
           src.c
-        C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\src.c(1,10): error C1083: Datei (Include) kann nicht ge├Âffnet werden: "pthread.h": No such file or directory [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\cmTC_08159.vcxproj]
-        Die Erstellung des Projekts "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\cmTC_08159.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+        C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\src.c(1,10): error C1083: Datei (Include) kann nicht ge├Âffnet werden: "pthread.h": No such file or directory [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\cmTC_d7c1a.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\cmTC_d7c1a.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\cmTC_08159.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\cmTC_d7c1a.vcxproj" (Standardziel) (1) ->
         (ClCompile Ziel) -> 
-          C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\src.c(1,10): error C1083: Datei (Include) kann nicht ge├Âffnet werden: "pthread.h": No such file or directory [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yk2h4a\\cmTC_08159.vcxproj]
+          C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\src.c(1,10): error C1083: Datei (Include) kann nicht ge├Âffnet werden: "pthread.h": No such file or directory [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2hxsr5\\cmTC_d7c1a.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.36
+        Verstrichene Zeit 00:00:00.55
         
       exitCode: 1
   -
@@ -354,8 +354,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-t0tbc5"
-      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-t0tbc5"
+      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-02tj4z"
+      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-02tj4z"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -364,42 +364,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-t0tbc5'
+        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-02tj4z'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8bd3d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e140f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-        Der Buildvorgang wurde am 14.04.2026 09:32:44 gestartet.
+        Der Buildvorgang wurde am 15.04.2026 18:19:09 gestartet.
         
-        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\cmTC_8bd3d.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\cmTC_e140f.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_8bd3d.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_e140f.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_8bd3d.dir\\Debug\\cmTC_8bd3d.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_e140f.dir\\Debug\\cmTC_e140f.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_8bd3d.dir\\Debug\\cmTC_8bd3d.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_8bd3d.dir\\Debug\\cmTC_8bd3d.tlog\\unsuccessfulbuild".
+          "cmTC_e140f.dir\\Debug\\cmTC_e140f.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_e140f.dir\\Debug\\cmTC_e140f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8bd3d.dir\\Debug\\\\" /Fd"cmTC_8bd3d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e140f.dir\\Debug\\\\" /Fd"cmTC_e140f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\CheckFunctionExists.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.44.35225 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8bd3d.dir\\Debug\\\\" /Fd"cmTC_8bd3d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e140f.dir\\Debug\\\\" /Fd"cmTC_e140f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\Debug\\cmTC_8bd3d.exe" /INCREMENTAL /ILK:"cmTC_8bd3d.dir\\Debug\\cmTC_8bd3d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-t0tbc5/Debug/cmTC_8bd3d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-t0tbc5/Debug/cmTC_8bd3d.lib" /MACHINE:X64  /machine:x64 cmTC_8bd3d.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\cmTC_8bd3d.vcxproj]
-        Die Erstellung des Projekts "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\cmTC_8bd3d.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\Debug\\cmTC_e140f.exe" /INCREMENTAL /ILK:"cmTC_e140f.dir\\Debug\\cmTC_e140f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-02tj4z/Debug/cmTC_e140f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-02tj4z/Debug/cmTC_e140f.lib" /MACHINE:X64  /machine:x64 cmTC_e140f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\cmTC_e140f.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\cmTC_e140f.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\cmTC_8bd3d.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\cmTC_e140f.vcxproj" (Standardziel) (1) ->
         (Link Ziel) -> 
-          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0tbc5\\cmTC_8bd3d.vcxproj]
+          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-02tj4z\\cmTC_e140f.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.47
+        Verstrichene Zeit 00:00:00.55
         
       exitCode: 1
   -
@@ -413,8 +413,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ytklhh"
-      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ytklhh"
+      source: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-7n6i1v"
+      binary: "C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-7n6i1v"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -423,42 +423,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ytklhh'
+        Change Dir: 'C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-7n6i1v'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2e55c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_29ba3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.14.40+3e7442088 f├╝r .NET Framework
-        Der Buildvorgang wurde am 14.04.2026 09:32:45 gestartet.
+        Der Buildvorgang wurde am 15.04.2026 18:19:10 gestartet.
         
-        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\cmTC_2e55c.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\cmTC_29ba3.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_2e55c.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_29ba3.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_2e55c.dir\\Debug\\cmTC_2e55c.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_29ba3.dir\\Debug\\cmTC_29ba3.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_2e55c.dir\\Debug\\cmTC_2e55c.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_2e55c.dir\\Debug\\cmTC_2e55c.tlog\\unsuccessfulbuild".
+          "cmTC_29ba3.dir\\Debug\\cmTC_29ba3.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_29ba3.dir\\Debug\\cmTC_29ba3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e55c.dir\\Debug\\\\" /Fd"cmTC_2e55c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29ba3.dir\\Debug\\\\" /Fd"cmTC_29ba3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\CheckFunctionExists.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.44.35225 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e55c.dir\\Debug\\\\" /Fd"cmTC_2e55c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29ba3.dir\\Debug\\\\" /Fd"cmTC_29ba3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\Debug\\cmTC_2e55c.exe" /INCREMENTAL /ILK:"cmTC_2e55c.dir\\Debug\\cmTC_2e55c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ytklhh/Debug/cmTC_2e55c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-ytklhh/Debug/cmTC_2e55c.lib" /MACHINE:X64  /machine:x64 cmTC_2e55c.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\cmTC_2e55c.vcxproj]
-        Die Erstellung des Projekts "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\cmTC_2e55c.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\Debug\\cmTC_29ba3.exe" /INCREMENTAL /ILK:"cmTC_29ba3.dir\\Debug\\cmTC_29ba3.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-7n6i1v/Debug/cmTC_29ba3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Nick/OneDrive/Dokumente/Bewerbung/Diehl/AirDefenceSim/cpp_training/build/CMakeFiles/CMakeScratch/TryCompile-7n6i1v/Debug/cmTC_29ba3.lib" /MACHINE:X64  /machine:x64 cmTC_29ba3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\cmTC_29ba3.vcxproj]
+        Die Erstellung des Projekts "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\cmTC_29ba3.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\cmTC_2e55c.vcxproj" (Standardziel) (1) ->
+        "C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\cmTC_29ba3.vcxproj" (Standardziel) (1) ->
         (Link Ziel) -> 
-          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ytklhh\\cmTC_2e55c.vcxproj]
+          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht ge├Âffnet werden. [C:\\Users\\Nick\\OneDrive\\Dokumente\\Bewerbung\\Diehl\\AirDefenceSim\\cpp_training\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7n6i1v\\cmTC_29ba3.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.48
+        Verstrichene Zeit 00:00:00.60
         
       exitCode: 1
 ...

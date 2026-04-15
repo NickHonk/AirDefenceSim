@@ -27,8 +27,22 @@ FetchContent_Declare(
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE) 
 FetchContent_MakeAvailable(googletest)
 
+# ==========================================
+# GLM Integration (header-only math library)
+# ==========================================
+FetchContent_Declare(
+  glm
+  GIT_REPOSITORY https://github.com/g-truc/glm.git
+  GIT_TAG        master  # Use a stable release tag
+)
+FetchContent_MakeAvailable(glm)
+
 # Test-Programm: kompilieren einer neuen .exe, die nur aus Test und Kern-Dateien besteht
 add_executable(SimulationTests test_interceptor.cpp ${CORE_SOURCES})
 
 # Einbinden der heruntergeladene GTest-Bibliothek an Test-Programm
 target_link_libraries(SimulationTests gtest_main)
+
+# Link GLM to both executables (header-only, so no actual linking—just include paths)
+target_link_libraries(SimulationApp glm::glm)
+target_link_libraries(SimulationTests glm::glm)

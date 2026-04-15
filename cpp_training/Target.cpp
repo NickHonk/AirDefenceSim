@@ -1,12 +1,10 @@
 #include "Target.hpp"
 
-Target::Target(std::string n, Vector3 pos, Vector3 vel)
+Target::Target(std::string n, glm::vec3 pos, glm::vec3 vel)
     : SimulationEntity(n, pos) {
     this->velocity = vel;
 }
 
-void Target::update(double dt, const SimulationEnvironment& env) {
-    position.x += velocity.x * dt;
-    position.y += velocity.y * dt;
-    position.z += velocity.z * dt;
+void Target::update(float dt, const SimulationEnvironment& env) {
+    position += velocity * dt;
 }

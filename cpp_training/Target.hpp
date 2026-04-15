@@ -4,10 +4,10 @@
 
 class Target : public SimulationEntity {
 public:
-    Target(std::string n, Vector3 pos, Vector3 vel);
+    Target(std::string n, glm::vec3 pos, glm::vec3 vel);
 
-    void update(double dt, const SimulationEnvironment& env) override;
+    void update(float dt, const SimulationEnvironment& env) override;
 
-    void setVelocity(Vector3 v) { velocity = v; }
-    Vector3 getVelocity() const { return velocity; }
+    void setVelocity(glm::vec3 v) { velocity = v; }
+    glm::vec3 getVelocity() const { return velocity; }
 };

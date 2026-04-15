@@ -1,21 +1,15 @@
 #include "SimulationEnvironment.hpp"
 #include <iostream>
     
-SimulationEnvironment::SimulationEnvironment(const std::string& filename) : currentTime(0.0) {
+SimulationEnvironment::SimulationEnvironment(const std::string& filename) : currentTime(0.0f) {
     this->initLogging(filename);
 }
-
-/* SimulationEnvironment::~SimulationEnvironment() {
-    if (logFile.is_open()) {
-        logFile.close();
-    }
-} */
 
 void SimulationEnvironment::addEntity(std::unique_ptr<SimulationEntity> entity) {
     entities.push_back(std::move(entity));
 }
 
-void SimulationEnvironment::step(double dt, const SimulationEnvironment& env) {
+void SimulationEnvironment::step(float dt, const SimulationEnvironment& env) {
 
     std::cout << "Zeit: " << currentTime << "s, " << ")\n" << std::endl;
 

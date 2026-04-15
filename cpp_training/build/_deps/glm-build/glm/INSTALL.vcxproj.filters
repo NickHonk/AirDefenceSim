@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\build\CMakeFiles\1f60e950ebfe0110518825a018a4b7a1\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BAD97A71-2360-37EF-A4C7-66852F98FC52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

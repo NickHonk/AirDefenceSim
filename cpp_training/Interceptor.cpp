@@ -2,38 +2,30 @@
 #include "SimulationEnvironment.hpp"
 #include <cmath>
 
-Interceptor::Interceptor(std::string n, Vector3 pos, double speed)
+Interceptor::Interceptor(std::string n, glm::vec3 pos, float speed)
     : SimulationEntity(n, pos) {
     this->maxSpeed = speed;
 }
 
-void Interceptor::update(double dt, const SimulationEnvironment& env) {
+void Interceptor::update(float dt, const SimulationEnvironment& env) {
 
-    Vector3 currentTargetPosition = env.getClosestTargetPosition();
+    glm::vec3 currentTargetPosition = env.getClosestTargetPosition();
 
     // Berechne die Richtung zum Ziel
-    Vector3 direction; 
+    glm::vec3 direction; 
 
-    direction.x = currentTargetPosition.x - position.x;
-    direction.y = currentTargetPosition.y - position.y;
-    direction.z = currentTargetPosition.z - position.z;
+    direction = currentTargetPosition - position;
     
     // Normalisiere die Richtung
-    double length = std::sqrt(direction.x * direction.x 
-                            + direction.y * direction.y 
-                            + direction.z * direction.z);
+    float length = glm::length(direction);
 
     // Setze die Geschwindigkeit in Richtung zum Ziel
-    if (length > 1e-6) {
-        velocity.x = direction.x / length * maxSpeed;
-        velocity.y = direction.y / length * maxSpeed;
-        velocity.z = direction.z / length * maxSpeed;
+   if (length > 1e-6) {
+    velocity = direction / length * maxSpeed;
     } else {
         // Ziel erreicht -> Interceptor stoppt 
-        velocity = {0.0, 0.0, 0.0}; 
+        velocity = glm::vec3(0.0f, 0.0f, 0.0f); 
     }
 
-    position.x += velocity.x * dt;
-    position.y += velocity.y * dt;
-    position.z += velocity.z * dt;
+    position += velocity * dt;
 }
