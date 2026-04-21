@@ -6,7 +6,7 @@
 
 // TEST 1: Grundlegende Flugmechanik
 TEST(TargetTest, TargetMovesCorrectlyAndName) {
-    auto env = std::make_unique<SimulationEnvironment>("unitTest_log.csv");
+    auto env = std::make_unique<SimulationEnvironment>("unitTest_log.csv", 10.0f);
     
     env->addEntity(std::make_unique<Target>("Target", glm::vec3(10.0f, 0.0f, 0.0f), glm::vec3(10.2f, -5.0f, 1.1f)));  
 

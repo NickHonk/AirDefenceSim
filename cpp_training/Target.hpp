@@ -8,6 +8,4 @@ public:
 
     void update(float dt, const SimulationEnvironment& env) override;
 
-    void setVelocity(glm::vec3 v) { velocity = v; }
-    glm::vec3 getVelocity() const { return velocity; }
 };

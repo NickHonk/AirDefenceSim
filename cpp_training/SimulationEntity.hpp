@@ -18,7 +18,7 @@ public:
     SimulationEntity(std::string n, glm::vec3 pos) : name(n), position(pos), velocity(glm::vec3(0.0f, 0.0f, 0.0f)) {}
     virtual ~SimulationEntity() = default; // Wichtig für Polymorphie!
 
-    // Die zentrale Methode: Jedes Objekt berechnet seinen nächsten Zustand selbst
+    // Jedes Objekt berechnet seinen nächsten Zustand selbst
     virtual void update(float dt, const SimulationEnvironment& env) = 0; 
     
     glm::vec3 getPosition() const { return position; }

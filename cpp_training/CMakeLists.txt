@@ -38,7 +38,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(glm)
 
 # Test-Programm: kompilieren einer neuen .exe, die nur aus Test und Kern-Dateien besteht
-add_executable(SimulationTests test_interceptor.cpp test_target.cpp ${CORE_SOURCES})
+add_executable(SimulationTests test_interceptor.cpp test_target.cpp test_simulation_environment.cpp ${CORE_SOURCES})
 
 # Einbinden der heruntergeladene GTest-Bibliothek an Test-Programm
 target_link_libraries(SimulationTests gtest_main)

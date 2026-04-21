@@ -2,26 +2,31 @@
 #include "SimulationEnvironment.hpp"
 #include <cmath>
 
-Interceptor::Interceptor(std::string n, glm::vec3 pos, float speed)
+Interceptor::Interceptor(std::string n, glm::vec3 pos, float speed, float gainPos, float gainVel)
     : SimulationEntity(n, pos) {
     this->maxSpeed = speed;
+    this->gainPosFeedback = gainPos;
+    this->gainVelFeedback = gainVel;
 }
 
 void Interceptor::update(float dt, const SimulationEnvironment& env) {
 
-    glm::vec3 currentTargetPosition = env.getClosestTargetPosition();
+    // currently taking the place of a detector, which would normally provide this information. 
+    // In a more complex simulation, we would need to check all entities and find the closest one.
+    glm::vec3 currentTargetPosition = env.getClosestTargetPosition(); 
 
     // Berechne die Richtung zum Ziel
-    glm::vec3 direction; 
-
-    direction = currentTargetPosition - position;
+    glm::vec3 trackingError = currentTargetPosition - position;
     
     // Normalisiere die Richtung
-    float length = glm::length(direction);
+    float lengthTrackingErr = glm::length(trackingError);
 
     // Setze die Geschwindigkeit in Richtung zum Ziel
-   if (length > 1e-6) {
-    velocity = direction / length * maxSpeed;
+   if (lengthTrackingErr > 1e-6) {
+    velocity = trackingError * gainPosFeedback; // Proportional zum Positionsfehler
+    if (glm::length(velocity) > maxSpeed) {
+        velocity = glm::normalize(velocity) * maxSpeed; // Begrenze die Geschwindigkeit auf maxSpeed
+    } 
     } else {
         // Ziel erreicht -> Interceptor stoppt 
         velocity = glm::vec3(0.0f, 0.0f, 0.0f); 

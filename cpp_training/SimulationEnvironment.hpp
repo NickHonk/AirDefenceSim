@@ -15,8 +15,12 @@ private:
 
     std::ofstream logFile;
 
+    bool isHit = false; // Flag, um zu verfolgen, ob der Interceptor das Ziel getroffen hat
+
+    float hitThreshold; // Abstand, unter dem ein Treffer angenommen wird
+
 public:
-    SimulationEnvironment(const std::string& filename);
+    SimulationEnvironment(const std::string& filename, float hitThreshold);
 
     ~SimulationEnvironment() {
         if (logFile.is_open()) {
@@ -32,8 +36,21 @@ public:
     float getCurrentTime() const { return currentTime; }
 
     glm::vec3 getClosestTargetPosition() const {
-        return entities[0]->getPosition(); // currently assuming, that the first entity is always the target. In a more complex simulation, we would need to check all entities and find the closest one.
-    }
+        // currently assuming, that the first entity is always the target. 
+        // In a more complex simulation, we would need to check all entities and find the closest one.
+        return entities[0]->getPosition(); 
+    };
+
+    void checkForHit() {
+
+        // currently assuming, that the first entity is always the target and the second one is the interceptor. 
+        float distance = glm::distance(entities[0]->getPosition(), entities[1]->getPosition());
+        if (distance < hitThreshold) { // Treffer, wenn Abstand kleiner als hitThreshold
+            isHit = true;
+        } else {
+            isHit = false;
+        }
+    };
 
     void initLogging(const std::string& filename);
     void logCurrentState();

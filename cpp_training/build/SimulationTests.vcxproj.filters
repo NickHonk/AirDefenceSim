@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\test_target.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\test_simulation_environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Nick\OneDrive\Dokumente\Bewerbung\Diehl\AirDefenceSim\cpp_training\Target.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
