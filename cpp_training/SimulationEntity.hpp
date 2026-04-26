@@ -22,5 +22,6 @@ public:
     virtual void update(float dt, const SimulationEnvironment& env) = 0; 
     
     glm::vec3 getPosition() const { return position; }
+    glm::vec3 getVelocity() const { return velocity; }
     std::string getName() const { return name; }
 };

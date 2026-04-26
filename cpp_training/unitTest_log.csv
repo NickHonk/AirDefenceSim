@@ -1,1 +1,1 @@
-Time,TargetX,TargetY,InterceptorX,InterceptorY
+Time,TargetX,TargetY,TargetZ,InterceptorX,InterceptorY,InterceptorZ,IsHit

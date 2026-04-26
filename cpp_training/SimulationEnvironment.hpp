@@ -37,13 +37,14 @@ public:
 
     glm::vec3 getClosestTargetPosition() const {
         // currently assuming, that the first entity is always the target. 
-        // In a more complex simulation, we would need to check all entities and find the closest one.
+        // Later check all entities and find the closest one.
         return entities[0]->getPosition(); 
     };
 
     void checkForHit() {
+        // Need at least 2 entities (target + interceptor) to check for a hit
+        if (entities.size() < 2) return;
 
-        // currently assuming, that the first entity is always the target and the second one is the interceptor. 
         float distance = glm::distance(entities[0]->getPosition(), entities[1]->getPosition());
         if (distance < hitThreshold) { // Treffer, wenn Abstand kleiner als hitThreshold
             isHit = true;

@@ -9,7 +9,7 @@
 TEST(InterceptorTest, MovesTowardsTargetCorrectly) {
     auto env = std::make_unique<SimulationEnvironment>("unitTest_log.csv", 10.0f);
     
-    env->addEntity(std::make_unique<Target>("Target", glm::vec3(100.0f, 0.0f, 0.0f), glm::vec3(0.0f, 0.0f, 0.0f)));  
+    env->addEntity(std::make_unique<Target>("Target", glm::vec3(100, 0, 0), glm::vec3(0, 0, 0), 5, glm::vec3(0, 0, 0)));  
     env->addEntity(std::make_unique<Interceptor>("Missile", glm::vec3(0.0f, 0.0f, 0.0f), 10.0f, 1.0f, 0.0f));
 
     env->step(1.0f, *env);
@@ -28,7 +28,7 @@ TEST(InterceptorTest, HandlesZeroDistanceWithoutNaN) {
     auto env = std::make_unique<SimulationEnvironment>("unitTest_log.csv", 10.0f);
     
     // Ziel und Interceptor spawnen am EXAKT selben Punkt (0,0,0)
-    env->addEntity(std::make_unique<Target>("Target", glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 0.0f, 0.0f)));
+    env->addEntity(std::make_unique<Target>("Target", glm::vec3(0, 0, 0), glm::vec3(0, 0, 0), 5, glm::vec3(0, 0, 0)));
     env->addEntity(std::make_unique<Interceptor>("Missile", glm::vec3(0.0f, 0.0f, 0.0f), 10.0f, 1.0f, 0.0f));
 
     // Einen Schritt simulieren
