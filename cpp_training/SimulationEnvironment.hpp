@@ -41,6 +41,12 @@ public:
         return entities[0]->getPosition(); 
     };
 
+    glm::vec3 getClosestTargetVelocity() const {
+        // currently assuming, that the first entity is always the target. 
+        // Later check all entities and find the closest one.
+        return entities[0]->getVelocity(); 
+    };
+
     void checkForHit() {
         // Need at least 2 entities (target + interceptor) to check for a hit
         if (entities.size() < 2) return;

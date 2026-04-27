@@ -2,8 +2,8 @@
 #include "SimulationEnvironment.hpp"
 #include <cmath>
 
-Interceptor::Interceptor(std::string n, glm::vec3 pos, float speed, float gainPos, float gainVel)
-    : SimulationEntity(n, pos) {
+Interceptor::Interceptor(std::string n, float m, glm::vec3 pos, float speed, float gainPos, float gainVel)
+    : SimulationEntity(n, m, pos) {
     this->maxSpeed = speed;
     this->gainPosFeedback = gainPos;
     this->gainVelFeedback = gainVel;
@@ -11,26 +11,24 @@ Interceptor::Interceptor(std::string n, glm::vec3 pos, float speed, float gainPo
 
 void Interceptor::update(float dt, const SimulationEnvironment& env) {
 
-    // currently taking the place of a detector, which would normally provide this information. 
-    // In a more complex simulation, we would need to check all entities and find the closest one.
+    // currently taking the place of detectors, which would normally provide this information. Later.
     glm::vec3 currentTargetPosition = env.getClosestTargetPosition(); 
+    glm::vec3 currentTargetVelocity = env.getClosestTargetVelocity(); 
 
-    // Berechne die Richtung zum Ziel
-    glm::vec3 trackingError = currentTargetPosition - position;
+    // Berechne Folgefehler (Tracking Error)
+    glm::vec3 trackingErrorPos = currentTargetPosition - position;
+    glm::vec3 trackingErrorVel = currentTargetVelocity - velocity;
     
-    // Normalisiere die Richtung
-    float lengthTrackingErr = glm::length(trackingError);
+    // Norm des Tracking Errors für die Entscheidung, ob das Ziel erreicht ist oder nicht
+    float lengthTrackingErr = glm::length(trackingErrorPos);
 
-    // Setze die Geschwindigkeit in Richtung zum Ziel
-   if (lengthTrackingErr > 1e-6) {
-    velocity = trackingError * gainPosFeedback; // Proportional zum Positionsfehler
-    if (glm::length(velocity) > maxSpeed) {
-        velocity = glm::normalize(velocity) * maxSpeed; // Begrenze die Geschwindigkeit auf maxSpeed
+    // Prüfe ob Interceptor das Ziel erreicht hat 
+    if (lengthTrackingErr > 1e-5) {
+        velocity = trackingErrorPos * gainPosFeedback + trackingErrorVel * gainVelFeedback; // Proportional zum Positions- und Geschwindigkeitsfehler
+        if (glm::length(velocity) > maxSpeed) {
+            velocity = glm::normalize(velocity) * maxSpeed; // Begrenze die Geschwindigkeit auf maxSpeed
+        } 
     } 
-    } else {
-        // Ziel erreicht -> Interceptor stoppt 
-        velocity = glm::vec3(0.0f, 0.0f, 0.0f); 
-    }
 
     position += velocity * dt;
 }

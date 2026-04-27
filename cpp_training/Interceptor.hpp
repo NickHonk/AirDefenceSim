@@ -9,9 +9,9 @@ private:
     float gainVelFeedback;       // Wie stark der Interceptor auf Geschwindigkeitsfehler reagiert
 
 public:
-    Interceptor(std::string n, glm::vec3 pos, float speed, float gainPos, float gainVel);
+    Interceptor(std::string n, float m, glm::vec3 pos, float speed, float gainPos, float gainVel);
 
     void update(float dt, const SimulationEnvironment& env) override;
 
-    glm::vec3 getVelocity() const { return velocity; }
+    //glm::vec3 getVelocity() const { return velocity; }
 };

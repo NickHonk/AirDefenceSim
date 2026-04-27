@@ -11,7 +11,7 @@ int main() {
 
     // create target and interceptor with initial conditions
     auto target = std::make_unique<Target>("Feindliches Projektil", glm::vec3(1000, 0, 0), glm::vec3(0, 0, 0), 30, glm::vec3(-5.0f, 1.0f, 3.0f));
-    auto interceptor = std::make_unique<Interceptor>("IRIS-T", glm::vec3(0, -500, 0), 90.0, 20.5, 0.0);
+    auto interceptor = std::make_unique<Interceptor>("IRIS-T", glm::vec3(0, -500, 0), 50.0, 15.5, 1.0);
 
     float dt = 0.1f;
 
